@@ -2,14 +2,6 @@
     --text-feedback-positive: #2DC771 !important;
 }
 
-.footer__214dc {
-    display: none;
-}
-
-:has(> .headerContainer__095fe) {
-    display: none;
-}
-
 :has(> .wrapper__6e9f8), :has(> .circleIconButton__5bc7e) {
     border-radius: 50%;
     mask: none !important;
