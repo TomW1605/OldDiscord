@@ -1,0 +1,39 @@
+:root {
+    --text-feedback-positive: #2DC771 !important;
+}
+
+.footer__214dc {
+    display: none;
+}
+
+:has(> .headerContainer__095fe) {
+    display: none;
+}
+
+:has(> .wrapper__6e9f8), :has(> .circleIconButton__5bc7e) {
+    border-radius: 50%;
+    mask: none !important;
+}
+
+:has(> .selected__6e9f8), :has(> .selected__5bc7e) {
+    border-radius: 25%;
+    /* mask: none !important; */
+}
+
+.iconInactive_f34534 {
+    border-radius: 50% !important;
+}
+
+.panels_c48ade {
+    left: var(--custom-guild-list-width) !important;
+    margin-left: var(--space-xs);
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - var(--space-xs) - 8px) !important;
+}
+
+.wrapper_ef3116 {
+    margin-bottom: 0px !important;
+}
+
+.sidebar_c48ade:after {
+    height: 0px !important;
+}
