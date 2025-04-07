@@ -17,10 +17,16 @@
     border-radius: 50% !important;
 }
 
+.container__2637a {
+    padding-bottom: 50px !important;
+}
+
 .panels_c48ade {
     left: var(--custom-guild-list-width) !important;
-    margin-left: var(--space-xs);
-    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) - var(--space-xs) - 8px) !important;
+    bottom: 0 !important;
+    border-radius: 0 !important;
+    /* margin-left: var(--space-xs); */
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)) !important;
 }
 
 .wrapper_ef3116 {
