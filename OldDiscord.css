@@ -18,7 +18,7 @@
 }
 
 .container__2637a {
-    padding-bottom: 50px !important;
+    padding-bottom: calc(var(--custom-app-panels-height, 0) - 4px) !important;
 }
 
 .panels_c48ade {
