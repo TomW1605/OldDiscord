@@ -21,6 +21,10 @@
     padding-bottom: calc(var(--custom-app-panels-height, 0) - 4px) !important;
 }
 
+.scroller__99e7c {
+    margin-bottom: var(--custom-app-panels-height, 0) !important;
+}
+
 .panels_c48ade {
     left: var(--custom-guild-list-width) !important;
     bottom: 0 !important;
