@@ -1,5 +1,6 @@
 :root {
     --text-feedback-positive: #2DC771 !important;
+    --green-new-25: #2DC771 !important;
 }
 
 :has(> .wrapper__6e9f8), :has(> .circleIconButton__5bc7e) {
