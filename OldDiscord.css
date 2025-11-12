@@ -46,3 +46,8 @@
 .pulseGradient__11664 {
     display: none;
 }
+
+/* hide activities from member list */
+.container__0f2e8 {
+  display: none;
+}
