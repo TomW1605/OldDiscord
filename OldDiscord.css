@@ -51,3 +51,8 @@
 .container__0f2e8 {
   display: none;
 }
+
+/* remove gap at bottom of server list */
+.sidebar__5e434:after {
+  display: none;
+}
