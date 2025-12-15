@@ -3,13 +3,13 @@
     --green-new-25: #2DC771 !important;
 }
 
-:has(> .wrapper__6e9f8), :has(> .circleIconButton__5bc7e) {
+:has(> * > .wrapper__6e9f8), :has(> .circleIconButton__5bc7e) {
     border-radius: 50%;
     mask: none !important;
     transition: border-radius linear .1s;
 }
 
-:has(> .selected__6e9f8), :has(> .selected__5bc7e) {
+:has(> * > .selected__6e9f8), :has(> .selected__5bc7e) {
     border-radius: 25%;
     /* mask: none !important; */
 }
