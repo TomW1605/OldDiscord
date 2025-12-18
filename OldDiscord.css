@@ -3,31 +3,31 @@
     --green-new-25: #2DC771 !important;
 }
 
-:has(> * > .wrapper__6e9f8), :has(> .circleIconButton__5bc7e) {
+:has(> * > ._6e9f8dce4cc18de3-wrapper), :has(> ._5bc7ed9d4097f6b5-circleIconButton) {
     border-radius: 50%;
     mask: none !important;
     transition: border-radius linear .1s;
 }
 
-:has(> * > .selected__6e9f8), :has(> .selected__5bc7e) {
+:has(> * > ._6e9f8dce4cc18de3-selected), :has(> ._5bc7ed9d4097f6b5-selected) {
     border-radius: 25%;
     /* mask: none !important; */
 }
 
-.iconInactive_f34534 {
+.f34534e8a5d3ca64-iconInactive {
     border-radius: 50% !important;
 }
 
-.container__2637a {
+._2637a2609f343032-container {
     padding-bottom: calc(var(--custom-app-panels-height, 0) - 12px) !important;
 }
 
-.scroller__629e4 {
+._629e4c86564a4ee7-scroller {
     /* margin-bottom: var(--custom-app-panels-height, 0) !important; */
     margin-bottom: 0 !important;
 }
 
-.panels__5e434 {
+[aria-label="User area"] {
     left: var(--custom-guild-list-width) !important;
     bottom: 0 !important;
     border-radius: 0 !important;
@@ -35,24 +35,20 @@
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)) !important;
 }
 
-.wrapper_ef3116 {
+[aria-label="Servers sidebar"] {
     margin-bottom: 0px !important;
 }
 
-.sidebar_c48ade:after {
-    height: 0px !important;
+/* remove gap at bottom of server list */
+:has(> [aria-label="Servers sidebar"]):after {
+  display: none;
 }
 
-.pulseGradient__11664 {
+._116642f293ef6ec6-pulseGradient {
     display: none;
 }
 
 /* hide activities from member list */
-.container__0f2e8 {
-  display: none;
-}
-
-/* remove gap at bottom of server list */
-.sidebar__5e434:after {
+._0f2e83213c878a13-container, :has(> ._095fe51feb41b3bb-headerContainer) {
   display: none;
 }
