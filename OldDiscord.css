@@ -52,3 +52,8 @@
 ._0f2e83213c878a13-container, :has(> ._095fe51feb41b3bb-headerContainer) {
   display: none;
 }
+
+/* make profile notes field expand to fit note */
+[aria-label="Note"] {
+  max-height: none;
+}
